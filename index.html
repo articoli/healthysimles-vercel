@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Build a Healthy Oral Hygiene Routine at Home</title>
+    <meta name="description" content="Learn practical steps to build an effective oral hygiene routine at home. Expert tips on brushing, flossing, diet, and when professional care supports your daily habits.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Editorial Team">
+    <style>
+        :root {
+            --primary: #0d4f6c;
+            --primary-dark: #083a50;
+            --accent: #2a9d8f;
+            --accent-light: #e8f5f3;
+            --text: #1a1a1a;
+            --text-secondary: #4a5568;
+            --bg: #fafbfc;
+            --white: #ffffff;
+            --border: #e2e8f0;
+            --highlight: #f0f7f6;
+            --tip-bg: #fef9e7;
+            --tip-border: #f1c40f;
+            --shadow: 0 4px 20px rgba(0,0,0,0.06);
+            --radius: 12px;
+            --font-serif: 'Georgia', 'Times New Roman', serif;
+            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            font-size: 18px;
+            line-height: 1.75;
+            color: var(--text);
+            background-color: var(--bg);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .site-header {
+            background: var(--white);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1rem 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+            letter-spacing: -0.02em;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.75rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover,
+        .nav-links a:focus {
+            color: var(--primary);
+        }
+
+        /* Hero / Title Section */
+        .article-hero {
+            background: linear-gradient(135deg, #0d4f6c 0%, #1a6b8a 100%);
+            color: var(--white);
+            padding: 4rem 1.5rem 3.5rem;
+            text-align: center;
+        }
+
+        .hero-inner {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .article-hero h1 {
+            font-family: var(--font-serif);
+            font-size: clamp(1.9rem, 5vw, 2.75rem);
+            line-height: 1.25;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            letter-spacing: -0.02em;
+        }
+
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 0.95rem;
+            opacity: 0.9;
+        }
+
+        .article-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        /* Main Content */
+        .content-wrapper {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem 4rem;
+        }
+
+        article {
+            background: var(--white);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            padding: 2.5rem 2.25rem;
+        }
+
+        @media (min-width: 768px) {
+            article {
+                padding: 3.5rem 3.5rem;
+            }
+        }
+
+        /* Typography */
+        .lead {
+            font-size: 1.2rem;
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            line-height: 1.7;
+        }
+
+        h2 {
+            font-family: var(--font-serif);
+            font-size: 1.65rem;
+            color: var(--primary);
+            margin: 2.75rem 0 1.1rem;
+            line-height: 1.3;
+            letter-spacing: -0.015em;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            color: var(--primary-dark);
+            margin: 2rem 0 0.85rem;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 1.35rem;
+        }
+
+        ul, ol {
+            margin: 0 0 1.5rem 1.5rem;
+        }
+
+        li {
+            margin-bottom: 0.6rem;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+            transition: color 0.2s;
+        }
+
+        a:hover, a:focus {
+            color: var(--primary);
+        }
+
+        a:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        strong {
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+
+        /* Callout boxes */
+        .tip-box {
+            background: var(--tip-bg);
+            border-left: 4px solid var(--tip-border);
+            padding: 1.25rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .tip-box h4 {
+            font-size: 1rem;
+            color: #8a6d00;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .tip-box p {
+            margin-bottom: 0;
+            color: #5a4a00;
+        }
+
+        .info-box {
+            background: var(--accent-light);
+            border-left: 4px solid var(--accent);
+            padding: 1.25rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+        }
+
+        .info-box h4 {
+            font-size: 1rem;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .info-box p {
+            margin-bottom: 0;
+        }
+
+        /* Checklist style */
+        .checklist {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .checklist li {
+            position: relative;
+            padding-left: 1.8rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .checklist li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+            font-weight: 700;
+        }
+
+        /* Footer */
+        .site-footer {
+            background: var(--primary-dark);
+            color: #e2e8f0;
+            padding: 3.5rem 1.5rem 2rem;
+        }
+
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 2.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        @media (min-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr 1.2fr;
+                gap: 3rem;
+            }
+        }
+
+        .footer-brand h3 {
+            color: var(--white);
+            font-size: 1.35rem;
+            margin-bottom: 0.75rem;
+            font-family: var(--font-serif);
+        }
+
+        .footer-brand p {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            opacity: 0.85;
+            margin-bottom: 1rem;
+        }
+
+        .contact-list {
+            list-style: none;
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .contact-list li {
+            margin-bottom: 0.6rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.6rem;
+        }
+
+        .contact-list a {
+            color: #a0e0d8;
+            text-decoration: none;
+        }
+
+        .contact-list a:hover {
+            color: var(--white);
+            text-decoration: underline;
+        }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: var(--radius);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .map-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.12);
+            padding-top: 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            opacity: 0.7;
+        }
+
+        /* Responsive nav */
+        @media (max-width: 640px) {
+            .nav-links {
+                display: none;
+            }
+            article {
+                padding: 1.75rem 1.25rem;
+            }
+            .article-hero {
+                padding: 3rem 1.25rem 2.5rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .site-header, .site-footer {
+                display: none;
+            }
+            body {
+                background: white;
+            }
+            article {
+                box-shadow: none;
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How to Build a Healthy Oral Hygiene Routine at Home",
+        "description": "Learn practical steps to build an effective oral hygiene routine at home. Expert tips on brushing, flossing, diet, and when professional care supports your daily habits.",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://example.com/how-to-build-healthy-oral-hygiene-routine"
+        }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">Oral<span>Well</span> Guide</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#routine">Routine Basics</a></li>
+                    <li><a href="#brushing">Brushing</a></li>
+                    <li><a href="#beyond">Beyond Brushing</a></li>
+                    <li><a href="#habits">Building Habits</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="article-hero">
+        <div class="hero-inner">
+            <h1>How to Build a Healthy Oral Hygiene Routine at Home</h1>
+            <div class="article-meta">
+                <span>📖 12 min read</span>
+                <span>🏠 Practical Home Care</span>
+                <span>🇦🇺 Australia-focused tips</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="content-wrapper">
+        <main>
+            <article>
+                <p class="lead">A consistent oral hygiene routine is one of the simplest and most effective ways to protect your teeth and gums for life. While professional care plays an important role, the daily habits you maintain at home form the foundation of long-term oral health. This guide walks through practical, evidence-based steps you can start using today — no complicated products or expensive tools required.</p>
+
+                <p>Many people brush their teeth twice a day and still experience cavities or gum issues. The difference often comes down to technique, consistency, and knowing when home care needs support from a professional. Regular <a href="https://healthysmilesaustralia.com.au/">professional dental cleaning</a> removes the stubborn plaque and tartar that daily brushing cannot fully address, especially in hard-to-reach areas. Combining solid home habits with occasional professional care creates the strongest protection.</p>
+
+                <h2 id="routine">Why a Structured Routine Matters</h2>
+
+                <p>Oral bacteria form a sticky biofilm called plaque within hours of eating. If left undisturbed, plaque hardens into tartar, irritates the gums, and produces acids that dissolve tooth enamel. The Australian Dental Association emphasises that brushing twice daily, cleaning between teeth once a day, and using fluoride toothpaste form the core of effective home care.</p>
+
+                <p>A well-designed routine does more than prevent cavities. It reduces the risk of gum disease, which research links to broader health concerns including cardiovascular inflammation. Fresh breath, a brighter smile, and greater comfort when eating are everyday benefits that appear once the habit becomes automatic.</p>
+
+                <div class="info-box">
+                    <h4>Key Principle</h4>
+                    <p>Focus on consistency over perfection. Missing a night of flossing occasionally will not ruin your progress, but skipping the same step repeatedly creates vulnerable spots that plaque exploits.</p>
+                </div>
+
+                <h2 id="brushing">Mastering the Basics of Brushing</h2>
+
+                <p>Brushing remains the cornerstone of any oral hygiene routine. The goal is to disrupt plaque on every tooth surface without damaging enamel or gum tissue.</p>
+
+                <h3>Choosing the Right Tools</h3>
+
+                <p>Soft-bristled brushes are recommended for most people. Medium or hard bristles can wear down enamel and cause gum recession over time. Both manual and electric toothbrushes work well when used correctly. Electric models with oscillating or sonic heads can make thorough cleaning easier for those with limited dexterity or who tend to rush.</p>
+
+                <p>Replace your toothbrush or brush head every three months, or sooner if the bristles splay outward. A worn brush cleans less effectively and can harbour bacteria.</p>
+
+                <h3>Technique That Actually Works</h3>
+
+                <p>Hold the brush at a 45-degree angle to the gumline. Use gentle circular or short back-and-forth strokes rather than aggressive scrubbing. Cover the outer surfaces, inner surfaces, and chewing surfaces of every tooth. Many people spend most of their time on the front teeth and neglect the back molars where cavities frequently start.</p>
+
+                <p>Aim for two full minutes. Dividing the mouth into four sections and spending 30 seconds on each helps maintain even coverage. An electric toothbrush with a built-in timer removes the guesswork. Spit out the foam after brushing but avoid rinsing with water immediately if you use fluoride toothpaste — this allows the fluoride to remain in contact with the enamel longer.</p>
+
+                <div class="tip-box">
+                    <h4>Practical Tip</h4>
+                    <p>Brush before breakfast if you struggle to clean thoroughly after meals, or wait at least 30 minutes after acidic foods and drinks (citrus, soft drinks, wine) before brushing. Acid softens enamel temporarily, and immediate brushing can wear it away.</p>
+                </div>
+
+                <h3>Fluoride Toothpaste</h3>
+
+                <p>Fluoride strengthens enamel and helps reverse early stages of tooth decay. Adults and children over six should use a pea-sized amount of toothpaste containing at least 1000 ppm fluoride. Younger children need only a smear. In Australia, most standard toothpastes meet these recommendations. Look for the Australian Dental Association Seal of Approval when choosing products.</p>
+
+                <h2 id="beyond">Cleaning Between the Teeth</h2>
+
+                <p>Brushing alone reaches only about 60 percent of tooth surfaces. The spaces between teeth and just under the gumline trap food particles and bacteria that brushes cannot access. Daily interdental cleaning is essential.</p>
+
+                <h3>Flossing Correctly</h3>
+
+                <p>Use about 45 centimetres of floss. Wind most of it around the middle fingers of each hand, leaving a short working section. Guide the floss gently between teeth using a seesaw motion, then curve it into a C-shape against one tooth and slide it under the gumline. Move the floss up and down several times before repeating on the adjacent tooth. Use a clean section of floss for each space.</p>
+
+                <p>If traditional floss feels awkward, try floss picks, interdental brushes, or water flossers. Interdental brushes are particularly effective for larger gaps or for people with braces, bridges, or implants. Water flossers can be helpful for those with limited hand mobility, though they work best as a supplement rather than a complete replacement for mechanical cleaning in many cases.</p>
+
+                <h3>Tongue Cleaning</h3>
+
+                <p>The tongue’s rough surface collects bacteria that contribute to bad breath and can reintroduce plaque to cleaned teeth. Gently brush the tongue from back to front with your toothbrush, or use a dedicated tongue scraper. Rinse thoroughly afterward. This simple step often produces a noticeable improvement in breath freshness within days.</p>
+
+                <h2>Mouthwash and Additional Aids</h2>
+
+                <p>Therapeutic mouthwashes containing fluoride or antiseptic agents can offer extra protection, especially for people at higher risk of cavities or gum inflammation. They are not a substitute for brushing and interdental cleaning. Alcohol-free options are gentler for those with dry mouth or sensitive tissues.</p>
+
+                <p>Some people benefit from disclosing tablets that temporarily stain plaque so you can see missed areas. These are useful training tools when establishing a new routine or teaching children.</p>
+
+                <div class="info-box">
+                    <h4>When Extra Support Helps</h4>
+                    <p>People with orthodontic appliances, dental restorations, dry mouth (xerostomia), or a history of frequent cavities may need tailored advice. A dental professional can recommend specific products or techniques suited to individual circumstances.</p>
+                </div>
+
+                <h2>Diet and Lifestyle Factors</h2>
+
+                <p>What you eat and drink has a direct impact on oral health. Frequent exposure to sugar and acid fuels the bacteria that cause decay. The Australian Dental Association’s oral health messages encourage limiting sugary foods and drinks and choosing tap water, which is fluoridated in most Australian communities including many areas of Melbourne and surrounding suburbs such as Niddrie.</p>
+
+                <p>Practical adjustments include:</p>
+                <ul class="checklist">
+                    <li>Drinking water throughout the day instead of continuous sipping of soft drinks or fruit juice</li>
+                    <li>Finishing meals with cheese, nuts, or sugar-free gum to help neutralise acids</li>
+                    <li>Saving sweets and acidic treats for mealtimes rather than between-meal snacks</li>
+                    <li>Using a straw when drinking acidic beverages to reduce contact with teeth</li>
+                </ul>
+
+                <p>Smoking and vaping significantly increase the risk of gum disease, delayed healing, and oral cancers. Quitting is one of the most beneficial steps anyone can take for both oral and general health.</p>
+
+                <h2>Building the Habit for Life</h2>
+
+                <p>Knowledge alone rarely changes behaviour. Turning good intentions into automatic routines requires structure and cues.</p>
+
+                <h3>Create Clear Triggers</h3>
+
+                <p>Link oral care to existing habits. Brush immediately after the morning shower or while the kettle boils. Floss right after the evening news or before the final check of your phone. Consistency of context strengthens the neural pathways that make the behaviour automatic.</p>
+
+                <h3>Make It Convenient</h3>
+
+                <p>Keep floss visible on the bathroom counter. Store a travel-sized kit at work or in a gym bag. For families, assign each person a colour-coded brush and a designated spot so tools are always ready.</p>
+
+                <h3>Track Progress Without Obsession</h3>
+
+                <p>A simple calendar checkmark or a note in a habit-tracking app can provide mild accountability. Focus on streaks of completed days rather than perfection. After several weeks, the routine usually feels incomplete if skipped.</p>
+
+                <h2 id="habits">Special Considerations Across Life Stages</h2>
+
+                <h3>Children</h3>
+
+                <p>Supervise brushing until around age seven or eight, when fine motor skills and thoroughness improve. Use age-appropriate fluoride toothpaste in the correct amount. Make the process playful with songs, timers shaped like animals, or reward charts. Early dental visits help children become comfortable with the clinical environment and allow professionals to catch issues early.</p>
+
+                <h3>Older Adults</h3>
+
+                <p>Reduced manual dexterity, dry mouth from medications, and receding gums present unique challenges. Electric toothbrushes with larger handles, interdental brushes, and alcohol-free rinses can help. Caregivers should assist when necessary and watch for signs of inflammation or difficulty chewing.</p>
+
+                <h3>People with Braces or Restorations</h3>
+
+                <p>Orthodontic appliances create additional plaque traps. Specialised floss threaders, water flossers, and interdental brushes become essential tools. Those with implants, bridges, or partial dentures need techniques that clean around and under these structures without damaging them.</p>
+
+                <h2>Recognising When Home Care Is Not Enough</h2>
+
+                <p>Even the most diligent routine has limits. Professional examination and cleaning remove calcified deposits that no amount of home care can eliminate. These visits also allow early detection of decay, gum disease, and other conditions before they become painful or expensive to treat.</p>
+
+                <p>Signs that you may benefit from professional attention sooner rather than later include persistent bad breath, bleeding gums when brushing or flossing, tooth sensitivity that lasts more than a few days, visible white or brown spots on teeth, or any pain or swelling. Residents in Melbourne’s northern suburbs, including those living near Niddrie, Australia, have access to local dental practices that can provide thorough assessments and treatments such as <a href="https://healthysmilesaustralia.com.au/professional-fluoride-treatment-niddrie/">fluoride treatment</a> when additional protection is warranted.</p>
+
+                <p>The frequency of professional visits varies. Many adults do well with check-ups every six to twelve months, while those at higher risk may need more frequent monitoring. Your dental practitioner can advise based on your individual situation.</p>
+
+                <h2>Common Mistakes to Avoid</h2>
+
+                <ul>
+                    <li><strong>Brushing too hard</strong> — Aggressive scrubbing damages enamel and gums. Let the bristles do the work with light pressure.</li>
+                    <li><strong>Rushing the process</strong> — Thirty seconds of brushing leaves large areas untouched. Use a timer.</li>
+                    <li><strong>Skipping interdental cleaning</strong> — The spaces between teeth are high-risk zones for both cavities and gum disease.</li>
+                    <li><strong>Rinsing immediately after brushing</strong> — This washes away protective fluoride. Spit, then wait before drinking water.</li>
+                    <li><strong>Ignoring the tongue</strong> — A significant source of bacteria and odour.</li>
+                    <li><strong>Using the same brush for months</strong> — Worn bristles lose effectiveness.</li>
+                </ul>
+
+                <div class="tip-box">
+                    <h4>Quick Self-Check</h4>
+                    <p>Once a week, run your tongue over your teeth after your usual routine. Any rough or fuzzy feeling indicates remaining plaque. Adjust your technique in those areas the following days.</p>
+                </div>
+
+                <h2>Putting It All Together: A Sample Daily Routine</h2>
+
+                <p>Here is a realistic structure that most people can maintain:</p>
+
+                <p><strong>Morning</strong></p>
+                <ol>
+                    <li>Brush for two minutes with fluoride toothpaste, covering all surfaces.</li>
+                    <li>Clean the tongue.</li>
+                    <li>Rinse lightly or simply spit if preferred.</li>
+                </ol>
+
+                <p><strong>Evening</strong></p>
+                <ol>
+                    <li>Floss or use interdental brushes first — this loosens debris so the toothbrush can remove it more effectively.</li>
+                    <li>Brush thoroughly for two minutes.</li>
+                    <li>Clean the tongue again if desired.</li>
+                    <li>Optionally use a fluoride mouthwash, then avoid eating or drinking for 30 minutes.</li>
+                </ol>
+
+                <p>This sequence takes roughly five to seven minutes morning and night. The investment is small compared with the time and cost of treating preventable dental problems later.</p>
+
+                <h2>Authoritative Guidance</h2>
+
+                <p>For further reading grounded in professional consensus, the Australian Dental Association provides clear recommendations on oral hygiene practices. Their resources explain the evidence behind brushing duration, fluoride use, and interdental cleaning in accessible language. You can explore their guidance on brushing technique and overall oral health messages through the official ADA consumer site and related policy materials.</p>
+
+                <p>Two useful starting points are the practical brushing advice available at <a href="https://www.teeth.org.au/brushing-teeth" rel="noopener noreferrer">teeth.org.au</a> and the broader oral hygiene policy statement published by the <a href="https://ada.org.au/policy-statement-2-2-3-oral-hygiene" rel="noopener noreferrer">Australian Dental Association</a>.</p>
+
+                <h2>Final Thoughts</h2>
+
+                <p>Building a healthy oral hygiene routine at home is less about perfection and more about reliable daily actions. Soft brush, two minutes, gentle technique, interdental cleaning once a day, fluoride toothpaste, and attention to diet form a powerful combination. When these habits become automatic, they protect not only your smile but also your comfort, confidence, and overall wellbeing for decades.</p>
+
+                <p>Start with one improvement if the full routine feels overwhelming — perhaps adding floss every evening or extending brushing time by thirty seconds. Small, sustained changes produce meaningful results. Your future self will thank you for the consistency you establish today.</p>
+            </article>
+        </main>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>Eco Bathroom Remodel</h3>
+                    <p>Supporting better oral health habits through practical information and local care connections in Melbourne’s north-west.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <span>📍</span>
+                            <span>8/344 Keilor Rd, Niddrie VIC 3042</span>
+                        </li>
+                        <li>
+                            <span>📞</span>
+                            <a href="tel:+61390206075">+61 3 9020 6075</a>
+                        </li>
+                        <li>
+                            <span>🌐</span>
+                            <a href="https://healthysmilesaustralia.com.au/" rel="noopener noreferrer">healthysmilesaustralia.com.au</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.2859055052995!2d144.88828737486614!3d-37.73643632962082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d0021928111%3A0xcce8dcfc5760c83a!2sHealthy%20Smiles%20Australia!5e0!3m2!1sen!2sau!4v1789882578054!5m2!1sen!2sau" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="strict-origin-when-cross-origin"
+                            title="Map showing location of Healthy Smiles Australia in Niddrie">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Eco Bathroom Remodel. Informational content only. Always consult a qualified dental professional for personalised advice.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
